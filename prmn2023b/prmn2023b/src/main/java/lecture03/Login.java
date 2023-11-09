@@ -4,7 +4,7 @@ public class Login {
     String name;
     int num;
 
-    Login(String name, int num){
+    Login(String name, int num) {
         this.name = name;
         this.num = num;
     }
@@ -15,4 +15,5 @@ public class Login {
         else
             System.out.println("ログイン失敗。");
     }
+
 }
